@@ -1,0 +1,71 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #c3cfe2;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -ms-grid;
+  display: grid;
+}
+
+.card {
+  width: 300px;
+  height: 430px;
+  background: #fff;
+  border-radius: 6px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-box-shadow: 0px 1px 10px #000;
+          box-shadow: 0px 1px 10px #000;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.card__upper {
+  height: 240px;
+  background: #fff;
+  display: inline-block;
+}
+
+.card__upper--text {
+  padding: 10px 20px 0px 20px;
+  line-height: 1.5;
+  color: grey;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.card__upper--image {
+  background: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  padding: 5px;
+  -webkit-transform: translate(100px, 50px);
+          transform: translate(100px, 50px);
+}
+
+.card__upper--image img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  padding-top: 0%;
+}
+
+.card__lower {
+  height: 190px;
+  background: #686de0;
+  padding: 20px;
+  padding-top: 40px;
+}
+
+.card__lower--text {
+  text-align: center;
+  color: white;
+  line-height: 0.6;
+}
+/*# sourceMappingURL=style.css.map */
