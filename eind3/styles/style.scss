@@ -1,0 +1,157 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: gray;
+}
+
+.social {
+    position: fixed;
+    top: 60%;
+    right: 0px;
+    transform: translateY(-50%);
+    & ul {
+        margin: 0;
+        padding: 0;
+    }
+    & ul li {
+        list-style: none;
+        margin: 0;
+    }
+    & ul li a {
+        width: 250px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 15px;
+        color: #fff;
+        display: block;
+        text-align: center;
+        padding-right: 0px;
+        position: relative;
+    }
+    & ul li a .com {
+        position: absolute;
+        top: 0;
+        right: -200px;
+        width: 250px;
+        height: 50px;
+        color: white;
+        background: #e17b77;
+        z-index: 1;
+        opacity: 1;
+        transition: 0.5s;
+    }
+    & ul li :hover .com {
+        opacity: 1;
+        right: 0px;
+    }
+    & ul li a .Twitter {
+        position: absolute;
+        top: 0;
+        right: -200px;
+        width: 250px;
+        height: 50px;
+        color: white;
+        background: #00aced;
+        z-index: -1;
+        opacity: 1;
+        transition: 0.5s;
+    }
+    & ul li :hover .Twitter {
+        opacity: 1;
+        right: 0px;
+    }
+    & ul li a .linkedin {
+        position: absolute;
+        top: 0;
+        right: -200px;
+        width: 250px;
+        height: 50px;
+        color: white;
+        background: #007bb6;
+        z-index: -1;
+        opacity: 1;
+        transition: 0.5s;
+    }
+    & ul li :hover .linkedin {
+        opacity: 1;
+        right: 0px;
+    }
+    & ul li a .facebook {
+        position: absolute;
+        top: 0;
+        right: -200px;
+        width: 250px;
+        height: 50px;
+        color: white;
+        background: #3b5998;
+        z-index: -1;
+        opacity: 1;
+        transition: 0.5s;
+    }
+    & ul li :hover .facebook {
+        opacity: 1;
+        right: 0px;
+    }
+    & ul li a .github {
+        position: absolute;
+        top: 0;
+        right: -200px;
+        width: 250px;
+        height: 50px;
+        color: white;
+        background: #333;
+        z-index: -1;
+        opacity: 1;
+        transition: 0.5s;
+    }
+    & ul li :hover .github {
+        opacity: 1;
+        right: 0px;
+    }
+    & ul li a .com::before {
+        content: "\f5fc";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        font-size: 20px;
+        padding-right: 70px;
+        padding-left: 0px;
+        margin-left: 0%;
+    }
+    & ul li a .Twitter::before {
+        content: "\f099";
+        font-family: "Font Awesome 5 Brands";
+        font-weight: 900;
+        font-size: 20px;
+        padding-right: 70px;
+        padding-left: 0px;
+        margin-left: 0%;
+    }
+    & ul li a .linkedin::before {
+        content: "\f0e1";
+        font-family: "Font Awesome 5 Brands";
+        font-weight: 900;
+        font-size: 20px;
+        padding-right: 50px;
+        padding-left: 0px;
+        margin-left: 0%;
+    }
+    & ul li a .facebook::before {
+        content: "\f39e";
+        font-family: "Font Awesome 5 Brands";
+        font-weight: 900;
+        font-size: 20px;
+        padding-right: 50px;
+        padding-left: 0px;
+        margin-left: 0%;
+    }
+    & ul li a .github::before {
+        content: "\f09b";
+        font-family: "Font Awesome 5 Brands";
+        font-weight: 900;
+        font-size: 20px;
+        padding-right: 50px;
+        padding-left: 0px;
+        margin-left: 0%;
+    }
+}
